@@ -1,3 +1,4 @@
+```json
 {
     "version": 2,
     "outputDirectory": "dist",
@@ -7,7 +8,7 @@
             "destination": "/api/index.js"
         },
         {
-            "source": "/(.*)",
+            "source": "/((?!api/|assets/|.*\\..*).*)",
             "destination": "/index.html"
         }
     ],
